@@ -1,0 +1,100 @@
+/*-----------------------------------*/
+
+@media(max-width:2100px){
+
+   .pets--container{
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+   }
+
+   /*-----------------------------------*/
+
+   .mobile-card{
+
+        display: none;
+
+   }
+
+   /*-----------------------------------*/
+
+   .card--esquerdo{
+
+        border-radius: 0;
+
+        width: 80%;
+
+        height: 100%;
+
+        border-radius: 10px 10px 0px 0px;
+
+   }
+
+   /*-----------------------------------*/
+
+   .cartao__esquerdo{
+
+        width: 50%;
+
+        margin-top: 1rem;
+
+        margin-bottom: 1rem;
+
+   }
+
+   /*-----------------------------------*/
+
+   .titulo--card__esquerdo{
+
+     font-size: 1.5rem;
+
+   }
+
+   /*-----------------------------------*/
+
+   .texto--card__esquerdo{
+
+     font-size: 1rem;
+
+   }
+
+   /*-----------------------------------*/
+
+   .link--card__esquerdo{
+
+     font-size: 1rem;
+
+   }
+
+   /*-----------------------------------*/
+
+   .card--direito{
+
+        border-radius: 0;
+
+        width: 80%;
+
+        height: 100%;
+
+        border-radius: 0px 0px 10px 10px;
+
+   }
+
+   /*-----------------------------------*/
+
+   .cartao__direito{
+
+     margin-bottom: 1rem;
+
+   }
+
+   /*-----------------------------------*/
+
+
+}
+
+/*-----------------------------------*/

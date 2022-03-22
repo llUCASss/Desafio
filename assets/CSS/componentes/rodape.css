@@ -1,0 +1,97 @@
+.rodape{
+
+    background: var(--azul-escuro);
+
+    margin-top: -20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+/*-----------------------------------*/
+
+.rodape__logo{
+
+    margin-top: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.nav-lista{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin: 2rem 0;
+
+    text-align: center;
+
+    
+}
+
+/*-----------------------------------*/
+
+.item__nav{
+
+    margin: auto;
+
+}
+
+/*-----------------------------------*/
+
+.link__nav{
+
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: var(--familia-corpo);
+
+    margin: 0 1rem 1rem 0;
+
+    font-size: 0.9rem;
+
+
+
+}
+
+/*-----------------------------------*/
+
+.rodape__social{
+
+    display: flex;
+
+    margin-bottom: 2rem;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/*-----------------------------------*/
+
+.rodape__social-midia{
+
+    margin-right: 2rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/*-----------------------------------*/

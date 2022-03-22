@@ -1,0 +1,134 @@
+/*-----------------------------------*/
+
+#forum{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+}
+
+/*-----------------------------------*/
+
+.container__forum{
+
+    width: 60%;
+
+    height: 60rem;
+
+    display: flex;
+
+    background-image: url(../../img/img/celular.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+/*-----------------------------------*/
+
+.titulo__forum{
+
+    font-family: var(--familia-corpo);
+
+    font-size: 5rem;
+
+}
+
+/*-----------------------------------*/
+
+.logo__forum{
+
+    background-color: var(--azul-escuro);
+
+    width: 80%;
+
+    margin-bottom: 2rem;
+
+    padding: 1rem 0.1rem;
+
+    margin-left: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.imagem__forum{
+
+    width: 200px;
+
+}
+
+/*-----------------------------------*/
+
+.botao__forum{
+
+    margin-bottom: 0.8rem;
+
+}
+
+/*-----------------------------------*/
+
+.icone--mensagem{
+
+    margin-right: 0.4rem;
+
+}
+
+/*-----------------------------------*/
+
+.mensagem{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+/*-----------------------------------*/
+
+.conteudo__forum{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+/*-----------------------------------*/
+
+.conteudo__forum h2{
+
+    font-family: var(--familia-corpo);
+
+    font-size: 3rem;
+
+    margin-bottom: 1rem;
+
+}
+
+/*-----------------------------------*/
+
+.conteudo__forum p {
+
+    font-size: 1.5rem;
+
+}
+
+/*-----------------------------------*/
+
+
+
+
+

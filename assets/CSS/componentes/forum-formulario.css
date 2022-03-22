@@ -1,0 +1,67 @@
+/*-----------------------------------*/
+
+.botao-res{
+
+
+    background-color: var(--azul-turqueza);
+
+    text-align: center;
+
+
+    color: var(--branco);
+
+    width: 50%;
+
+    padding-top: 1rem;
+
+    padding-bottom: 1rem;
+
+    border: none;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    margin: 1rem 0;
+
+}
+
+/*-----------------------------------*/
+
+.ativar{
+
+    display: flex;
+
+    width: 20vw;
+
+    border: 5px solid var(--azul-turqueza);
+
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+
+}
+
+/*-----------------------------------*/
+
+.ativar h1{
+
+    font-size: 2rem;
+
+    text-align: center;
+
+    
+}
+
+/*-----------------------------------*/
+
+.desativar{
+
+    display: none;
+
+}
+
+/*-----------------------------------*/
+

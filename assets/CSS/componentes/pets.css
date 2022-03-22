@@ -1,0 +1,122 @@
+/*-----------------------------------*/
+
+#pets{
+
+    margin-top:5rem;
+
+}
+
+/*-----------------------------------*/
+
+.pets--container{
+
+    height: 50rem;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+/*-----------------------------------*/
+
+.card--esquerdo{
+
+    width: 30%;
+
+    background-image: url(../../img/img/casa1.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+/*-----------------------------------*/
+
+.cartao__esquerdo{
+
+    margin: auto;
+
+    margin-top: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.titulo--card__esquerdo{
+
+    font-family: var(--familia-corpo);
+
+    font-size: 2.5rem;
+
+    margin-bottom: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.texto--card__esquerdo{
+
+    font-size: 1.2rem;
+
+}
+
+/*-----------------------------------*/
+
+.link--card__esquerdo{
+
+    color: var(--azul-turqueza);
+
+    font-size: 1.5rem;
+
+    margin-top: 1rem;
+
+}
+
+/*-----------------------------------*/
+
+.card--direito{
+
+    width: 50%;
+
+    background: #6ddad3;
+
+    border-radius: 0px 50px 50px 0px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+
+}
+
+/*-----------------------------------*/
+
+.cartao__direito{
+
+    max-width: 500px;
+
+    max-height: 300px;
+
+    margin-top: 1rem;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+/*-----------------------------------*/
+
+.cartao__direito img{
+
+    height: 90%;
+
+}
+
+/*-----------------------------------*/
+

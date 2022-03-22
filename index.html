@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4life</title>
+
+    
+    <!-----------------------CSS PADRÃO--------------------------------->
+
+    <link rel="stylesheet" href="/assets/CSS/base/base.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/destaque.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/ofertas.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/pets.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/anuncio.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/forum.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/forum-formulario.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/input.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/CSS/componentes/rodape.css">
+
+    <!------------------------------------------------------------------->
+
+    <!--------------------------MEDIA CSS-----------------------------------> 
+
+    <link rel="stylesheet" href="assets/CSS/media/media-cabecalho.css">
+    <link rel="stylesheet" href="assets/CSS/media/media-destaque.css">
+    <link rel="stylesheet" href="assets/CSS/media/media-ofertas.css">
+    <link rel="stylesheet" href="assets/CSS/media/media-cards-pets.css">
+    <link rel="stylesheet" href="assets/CSS/media/media-anuncio.css">
+    <link rel="stylesheet" href="assets/CSS/media/media-forum.css">
+
+    <!---------------------------------------------------------------------->
+ 
+ 
+    <!--------------------------LINKS FONTES E ICONES------------------------------>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Overpass&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b7fead3114.js" crossorigin="anonymous"></script>
+
+    <!------------------------------------------------------------------------------>
+
+    <!------------------------FAVICON-------------------------------->
+
+    <link rel="shortcut icon" href="assets/img/img/logo.png" type="image/x-icon">
+
+    <!--------------------------------------------------------------->
+
+</head>
+<body>
+    <!------------------------------------------------NAVBAR--------------------------------------------------------------------------->
+
+    <header>
+
+        <nav id="navegacao">
+
+            <a href="#" class="logo"><img src="assets/img/img/logo.png" alt="F4life"></a>
+
+            <div class="mobile-menu">
+
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+
+            <ul class="nav-list">
+
+                <li><a href="#destaque">Quem Somos</a></li>
+                <li><a href="#ofertas">ofertas</a></li>
+                <li><a href="#anuncio">Anuncio</a></li>
+                <li><a href="#forum">Fale Conosco</a></li>
+
+            </ul>
+
+            <ul class="lista--botao">
+
+                <li><button class="entrar">Entrar</button></li>
+                <li class="mobile"><i class="fa-solid fa-user icone--perfil"></i></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!------------------------------------------------------FIM NAVBAR--------------------------------------------------------------------->
+
+    <!------------------------------------------------------CONTEÚDO--------------------------------------------------------------------->
+
+    <main>
+
+        <!-----------------------------------------------------DESTAQUE---------------------------------------------------------------------->
+
+        <section id="destaque">
+
+            <div class="texto--destaque">
+
+                <h1 class="titulo__destaque">Quem Somos</h1>
+
+                <p class="texto__destaque">F4life é uma empresa de aluguéis de repúblicas para pessoas universitárias.
+
+                    Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.</p>
+
+            </div>
+
+            
+            <div class="imagem--destaque"><img src="assets/img/img/fotohomem.png" alt="Foto Homem"></div>
+
+        </section>
+
+        <!------------------------------------------------------FIM DESTAQUE--------------------------------------------------------------------->
+
+        <!-----------------------------------------------------OFERTAS---------------------------------------------------------------------->
+
+        <section id="ofertas">
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="oferta__formulario">
+
+                <form name="formOferta" action="#" class="cartao form"> 
+
+                    <h2 class="titulo__cartao">Encontre um lar para chamar de seu</h2>
+
+                    <ul>
+                        <li class="inputs">
+                            <label for="cidade" class="icones"><i class="fa-solid fa-location-dot"></i></label>
+                            <input type="text" name="cidade" class="input input--icone input__form" placeholder="Insira sua Cidade" aria-label="Insira sua Cidade" required>
+                            <br>
+                        </li>
+                        <li class="inputs">
+                            <label for="bairro" class="icones"><i class="fa-solid fa-house"></i></i></label>
+                            <input type="text" name="bairro" class="input input--icone input__form" placeholder="Insira seu Bairro" aria-label="Insira seu Bairro" required>
+                        </li>
+
+                        <br>
+
+                        <span id="errorOferta"></span>
+
+                        <li class="inputs">
+                            <fieldset id="selecao">
+
+                                <div class="selecao__opcao">
+
+                                    <i class="fa-solid fa-money-bill icones"></i>
+
+                                    <select class="opcao">
+                                        <option>Aluguel até</option>
+                                        <option>R$ 300</option>
+                                        <option>R$ 400</option>
+                                        <option>R$ 500</option>
+                                        <option>R$ 600</option>
+                                        <option>R$ 700</option>
+                                        <option>R$ 800</option>
+                                        <option>R$ 900</option>
+                                    </select>
+                                </div>
+
+                                <div class="selecao__opcao">
+
+                                    <i class="fa-solid fa-bed icones"></i>
+
+                                    <select class="opcao">
+                                        <option>Quartos</option>
+                                        <option>1+</option>
+                                        <option>2+</option>
+                                        <option>3+</option>
+                                    </select>
+                                </div>
+                                
+                            </fieldset>
+                        </li>
+                    </ul>
+
+                
+                    <button type="submit" class="botao__oferta botao">Buscar imóveis</button>
+
+                </form>
+
+            </article>
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <img src="" alt="" class="imagem--form">
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+        </section>
+
+        <!------------------------------------------------------FIM OFERTAS--------------------------------------------------------------------->
+
+        <!----------------------------------------------------PETS----------------------------------------------------------------------->
+
+        <section id="pets">
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="pets--container">
+
+                <!--------------------------------------------------------------------------------------------------------------------------->
+
+                <div class="card--esquerdo">
+
+                    <div class="cartao cartao__esquerdo">
+
+                        <h1 class="titulo--card__esquerdo"> Amor pelos pets</h1>
+
+                        <p class="texto--card__esquerdo">Conheça imóveis com permisão para seus pets com um alto padrão.</p>
+
+                        <a href="" class="link--card__esquerdo">Ver imóveis <i class="fa-solid fa-arrow-right-long"></i> </a>
+
+                    </div>
+
+                </div>
+
+             
+
+                <div class="card--direito">
+
+                    <div class="cartao cartao__direito">
+                        <img src="assets/img/img/card1.jpg" alt="Casa 1">
+                    </div>
+                    <div class="cartao  cartao__direito">
+                        <img src="assets/img/img/card2.jpg" alt="Casa 2">
+                        
+                    </div>
+                    <div class="cartao  cartao__direito mobile-card">
+                        <img src="assets/img/img/card3.jpg" alt="Casa 3">
+                        
+                    </div>
+                    <div class="cartao  cartao__direito mobile-card">
+                        <img src="assets/img/img/card4.jpg" alt="Casa 4">
+                        
+                    </div>
+                    
+                    <!--------------------------------------------------------------------------------------------------------------------------->
+
+                </div>
+
+            </article>
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+
+        </section>
+
+        <!------------------------------------------------------FIM PETS--------------------------------------------------------------------->
+
+        <!-------------------------------------------------------ANUNCIO-------------------------------------------------------------------->
+
+        <section id="anuncio">
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <div class="container--anuncio">
+
+                <img src="assets/img/img/mulhersorrindo.jpg" alt="Mulher sorrindo" class="imagem__anuncio">
+
+                <div class="anuncio__conteudo">
+
+                    <h1 class="titulo__anuncio">Anuncie grátis para mais de 50 mil pessoas todos os dias</h1>
+
+                    <p class="texto__anuncio">Não deixe seu imóvel parado. Acompanhe visitas e propostas pelo aplicativo. Feche negócio sem burocracias.</p>
+
+                    <button class="botao botao__anuncio">Anunciar imóvel</button>
+
+                </div>
+
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+        </section>
+
+        <!------------------------------------------------------FIM ANUNCIO--------------------------------------------------------------------->
+
+        <!------------------------------------------------------FORUM--------------------------------------------------------------------->
+
+        <section id="forum">
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <h1 class="titulo__forum">FORUM</h1>
+
+            <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <div class="container__forum">
+
+                <form action="" class="form__forum">
+
+                    <ul class="lista__forum">
+
+                        <li class="logo__forum">
+
+                            <img src="assets/img/img/logo.png" alt="Logo F4life" class="imagem__forum">
+
+                        </li>
+
+                        <li class="">
+                            <label for="email"><i class="fa-solid fa-envelope icones"></i></label>
+                            <input type="email" name="email" id="email" class="input input__forum-email" placeholder="digite seu email" required>
+                        <li class="mensagem">
+                            <label for="mensagem"><i class="fa-solid fa-message icones icone--mensagem"></i></label>
+                            <textarea name="text" id="mensagem" cols="20" rows="10" placeholder="Dígite suas duvidas..." class="input input__forum" required></textarea>
+                        </li>
+
+                    </ul>
+
+                    <button type="submit" class="botao botao__forum">Enviar</button>
+
+                </form>
+
+            </div>
+
+                <!--------------------------------------------------------------------------------------------------------------------------->
+
+            <div class="conteudo__forum">
+
+                <div id="resposta-forum">
+
+                    <h1 id="resposta"></h1>
+    
+                    <button id="botao__resposta"></button>
+    
+                </div>
+
+                <h2>Fale Conosco</h2>
+
+                <p>Atraves desse Formulario.</p>
+
+            </div>
+
+                <!--------------------------------------------------------------------------------------------------------------------------->
+
+        </section>
+
+        <!-----------------------------------------------------FIM FORUM---------------------------------------------------------------------->
+
+    </main>
+
+    <!------------------------------------------------------FIM CONTEÚDO--------------------------------------------------------------------->
+
+    <!------------------------------------------------------RODAPÉ--------------------------------------------------------------------->
+
+    <footer class="container rodape">
+
+        <!--------------------------------------------------------------------------------------------------------------------------->
+
+        <img src="assets/img/img/logo.png" alt="Logo F4life" class="rodape__logo">
+
+        <!--------------------------------------------------------------------------------------------------------------------------->
+
+        <ul class="nav-lista">
+
+            <li class="item__nav"><a href="#destaque" class="link__nav">Quem Somos</a></li>
+            <li class="item__nav"><a href="#ofertas" class="link__nav">Oferta</a></li>
+            <li class="item__nav"><a href="#anuncio" class="link__nav">Anuncio</a></li>
+            <li class="item__nav"><a href="#forum" class="link__nav">Fale conosco</a></li>
+
+        </ul>
+
+        <!--------------------------------------------------------------------------------------------------------------------------->
+
+        <ul class="rodape__social">
+
+            <li><a href="#" class="rodape__social-midia" title="Facebook"><i class="fa-brands fa-facebook-f icones"></i></a></li>
+            <li><a href="#" class="rodape__social-midia" title="Twitter"><i class="fa-brands fa-twitter icones"></i></a></li>
+            <li><a href="#" class="rodape__social-midia" title="Instragram"><i class="fa-brands fa-linkedin-in icones"></i></a></li>
+       
+        </ul>
+
+        <!--------------------------------------------------------------------------------------------------------------------------->
+
+
+    </footer>
+
+    <!-----------------------------------------------------FIM RODAPÉ---------------------------------------------------------------------->
+
+
+    <!-----------------------------------------------------SCRIPT---------------------------------------------------------------------->
+
+
+    <script src="JS/mobile-navbar.js"></script>
+
+    <script src="JS/form-oferta.js"></script>
+
+    <script src="JS/form-forum.js"></script>
+
+    <!-----------------------------------------------------FIM SCRIPT---------------------------------------------------------------------->
+    
+</body>
+</html>

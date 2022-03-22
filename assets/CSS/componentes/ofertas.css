@@ -1,0 +1,152 @@
+/*-----------------------------------*/
+
+#ofertas{
+
+    display: flex;
+
+    justify-content: center;
+    
+
+    height: 60vh;
+
+    margin-top: 2rem;
+
+    
+
+}
+
+/*-----------------------------------*/
+
+.form{
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+/*-----------------------------------*/
+
+.oferta__formulario{
+
+    width: 40%;
+
+    height: 100%;
+
+    background-color: var(--azul-turqueza);
+
+    display: flex;
+
+    justify-content: center;
+
+
+}
+
+/*-----------------------------------*/
+
+.cartao{
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+
+    flex-direction: column;
+
+}
+
+/*-----------------------------------*/
+
+.titulo__cartao{
+
+    font-family: var(--familia-corpo);
+
+    font-size: 2rem;
+
+    margin-bottom: 1.2rem;
+
+}
+
+/*-----------------------------------*/
+
+#selecao{
+
+    display: flex;
+
+
+}
+
+/*-----------------------------------*/
+
+.opcao{
+
+    padding: 1.2rem;
+
+}
+
+/*-----------------------------------*/
+
+.selecao__opcao{
+
+    display: flex;
+
+    flex-direction: row;
+    
+    justify-content: center;
+
+}
+
+/*-----------------------------------*/
+
+.icones{
+
+    font-size: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.inputs{
+
+    margin-bottom: 1rem;
+
+}
+
+/*-----------------------------------*/
+
+.botao__oferta{
+
+    width: 50%;
+
+    font-family: var(--familia-corpo);
+
+    font-size: 1.2rem;
+
+    transition: 1s;
+
+}
+
+/*-----------------------------------*/
+
+.botao__oferta:hover{
+
+    background-color: var(--azul-escuro);
+
+}
+
+/*-----------------------------------*/
+
+.imagem--form{
+
+    width: 30%;
+
+    background-image: url(../../img/img/apartamentos4.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+/*-----------------------------------*/

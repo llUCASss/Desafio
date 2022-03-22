@@ -1,0 +1,53 @@
+/*-----------------------------------*/
+
+@media(max-width:1000px){
+
+    .imagem--destaque{
+
+        display: none;
+
+    }
+
+    
+    .texto--destaque{
+
+        width: 80%;
+
+    }
+
+}
+
+/*-----------------------------------*/
+
+@media(min-width:1100px){
+
+    .imagem--destaque{
+
+        width: 700px;
+
+        margin-top: 2rem;
+
+    }
+
+
+}
+
+/*-----------------------------------*/
+
+@media(max-width:1100px){
+
+    .imagem--destaque{
+
+        width: 600px;
+
+        padding-top: 9rem;
+
+    }
+
+
+}
+
+/*-----------------------------------*/
+
+
+

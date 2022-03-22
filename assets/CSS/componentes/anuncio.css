@@ -1,0 +1,76 @@
+/*-----------------------------------*/
+
+#anuncio{
+
+   display: flex;
+
+   justify-content: center;
+
+   margin-top: 8rem;
+}
+
+/*-----------------------------------*/
+
+.container--anuncio{
+
+    display: flex;
+
+    justify-content: center;
+
+    width: 90%;
+
+    text-align: center;
+
+}
+
+/*-----------------------------------*/
+
+.imagem__anuncio{
+
+    width: 30%;
+
+}
+
+/*-----------------------------------*/
+
+.anuncio__conteudo{
+
+    display: flex;
+
+    border: 3px solid var(--azul-turqueza);
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+
+/*-----------------------------------*/
+
+.titulo__anuncio{
+
+    font-family: var(--familia-corpo);
+
+    font-size: 2rem;
+
+}
+
+/*-----------------------------------*/
+
+.texto__anuncio{
+
+    font-size: 1.3rem;
+
+}
+
+/*-----------------------------------*/
+
+.botao__anuncio{
+
+    font-size: 1.5rem;
+
+}
+
+/*-----------------------------------*/
